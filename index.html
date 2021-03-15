@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="index.js"></script>
+    <title>Shape Maker</title>
+</head>
+<body>
+    <form id="shape-form">
+        <div>
+            <p>Shape</p>
+            <select name="shape" id="shape">          
+                <option value="rectangle">Rectangle</option>
+                <option value="triangle">Triangle</option>
+            </select>
+        </div>
+        <div>
+            <p>Infill</p>
+            <select name="infill" id="infill">
+                <option value="true">Yes</option>
+                <option value="false">No</option>
+            </select>
+        </div>
+        <div>
+            <p>Character(s)</p>
+            <input type="text" id="char" class="input-box"placeholder="@"></input>
+        </div>
+        <div>
+            <p>Width</p>
+            <input type="number" id="width" class="input-box" placeholder="5"></input>
+        </div>
+        <div>
+            <p>Height</p>
+            <input type="number" id="height" class="input-box" placeholder="10"></input>
+        </div>
+        <div>
+            <p>Font Size</p>
+            <input type="number" id="size" class="input-box" placeholder="16"></input>
+        </div>
+        <div>
+            <p>Color</p>
+            <input type="color" id="color" class="input-box"> 
+        </div>
+        <input type="submit">
+    </form>
+    <p id="result" class="font"></p>
+</body>
+</html>

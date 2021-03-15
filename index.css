@@ -1,0 +1,15 @@
+#shape-form {
+    display: flex;
+    justify-content: space-between;
+}
+#shape-form > * {
+    text-align: center;
+}
+.input-box {
+    width: 50px;
+    text-align: center;
+}
+.hidden {
+    opacity: 0;
+    user-select: none;
+}
